@@ -11,11 +11,18 @@ API
 ====
 
 KEY:
+
 path: your download path
+
 callback: Callback function to send downloaded data to
+
 failscript: invokes the failScript function if the download fails
+
 saveToLocal: saves and caches the download to the local disk (image downloads only)
+
 downloadRetries: how many times to retry a failed download
+
+
 
 public static string Sync(string path)
 
