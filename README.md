@@ -24,6 +24,9 @@ downloadRetries: how many times to retry a failed download
 
 
 
+API MEMBERS:
+
+
 public static string Sync(string path)
 
 Async Overloads:
