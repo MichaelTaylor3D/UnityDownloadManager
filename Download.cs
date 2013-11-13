@@ -102,7 +102,7 @@ public class Download : MonoBehaviour
     /////////////////////////////////////////////////
     //////-------------Queue Object--------------//////
     /////////////////////////////////////////////////
-    public class Job
+    public sealed class Job
     {
         public string path { get; set; }
         public DownloadCallback callback { get; set; }
